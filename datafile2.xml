@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE productlist [
+<!ELEMENT productlist (product+,extras?)>
+<!ELEMENT extras (Nameex,addicost)>
+<!ELEMENT product (name,description,rentalcost,productcondition?,reviews*,url)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT rentalcost (#PCDATA)>
+<!ELEMENT productcondition (#PCDATA)>
+<!ELEMENT reviews (#PCDATA)>
+<!ELEMENT Nameex (#PCDATA)>
+<!ELEMENT addicost (#PCDATA)>
+]>
+<productlist>
+<product>
+<name> Verity</name>
+<description> Lowen Ashleigh is a struggling writer 
+on the brink of financial ruin when she accepts the 
+job offer of a lifetime. Jeremy Crawford, husband of 
+bestselling author Verity Crawford, has hired Lowen to
+ complete the remaining books in a successful series his 
+ injured wife is unable to finish </description>
+<rentalcost>18$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.goodreads.com/book/show/59344312-verity"> visit me</url>
+</product>
+
+<product>
+<name> Pride and Prejudice</name>
+<description> Pride and Prejudice is an 1813 novel of manners
+ by Jane Austen. The novel follows the character development of 
+ Elizabeth Bennet, the dynamic protagonist of the book who learns 
+ about the repercussions of hasty judgments and comes to appreciate 
+ the difference between superficial goodness and actual goodness. </description>
+<rentalcost>18$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice"> visit me</url>
+</product>
+
+<product>
+<name>The Four Winds</name>
+<description> 
+The Four Winds is a rich, sweeping 
+novel that stunningly brings to life 
+the Great Depression and the people who 
+lived through it—the harsh realities that 
+divided us as a nation and the enduring 
+battle between the haves and the have-nots.</description>
+<rentalcost>40$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.goodreads.com/book/show/53138081-the-four-winds"> visit me</url>
+</product>
+
+</productlist>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE productlist [
+<!ELEMENT productlist (product+,extras?)>
+<!ELEMENT extras (Nameex,addicost)>
+<!ELEMENT product (name,description,rentalcost,productcondition?,reviews*,url)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT rentalcost (#PCDATA)>
+<!ELEMENT productcondition (#PCDATA)>
+<!ELEMENT reviews (#PCDATA)>
+<!ELEMENT Nameex (#PCDATA)>
+<!ELEMENT addicost (#PCDATA)>
+]>
+<productlist>
+<product>
+<name> Vikings</name>
+<description> Vikings is the modern name given to seafaring people
+ originally from Scandinavia (present-day Denmark, Norway and Sweden),
+ who from the late 8th to the late 11th centuries raided, pirated, traded 
+ and settled throughout parts of Europe.[7][8][9] They also voyaged as far 
+ as the Mediterranean, North Africa, Volga Bulgaria, the Middle East, and North America. </description>
+<rentalcost>200$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.imdb.com/title/tt2306299/"> visit me</url>
+</product>
+
+<product>
+<name> Game of thrones</name>
+<description> Game of Thrones is an American fantasy drama television series
+ created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A
+  Song of Ice and Fire, a series of fantasy novels by George R. R. Martin,
+   the first of which is A Game of Thrones. The show was shot in the United Kingdom,
+    Canada, Croatia, Iceland, Malta, Morocco, and Spain. It premiered on HBO in the
+     United States on April 17, 2011, and concluded on May 19, 2019, with 73 episodes
+      broadcast over eight seasons.</description>
+<rentalcost>100$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.imdb.com/title/tt0944947/"> visit me</url>
+</product>
+
+<product>
+<name>Money Heist</name>
+<description>Money Heist (Spanish: La casa de papel, [la ˈkasa ðe paˈpel], lit. 'The House of Paper') 
+is a Spanish heist crime drama television series created by Álex Pina. 
+The series traces two long-prepared heists led by the Professor (Álvaro Morte),
+ one on the Royal Mint of Spain, and one on the Bank of Spain, told from the 
+ perspective of one of the robbers, Tokyo (Úrsula Corberó).
+  The narrative is told in a real-time-like fashion and 
+  relies on flashbacks, time-jumps, hidden character motivations, 
+  and an unreliable narrator for complexity.</description>
+<rentalcost>400$</rentalcost>
+<productcondition>good</productcondition>
+<extras>
+<Nameex>none</Nameex>
+<addicost>0$</addicost>
+</extras>
+<reviews>5 star</reviews>
+<url xmlns="https://www.imdb.com/title/tt6468322/"> visit me</url>
+</product>
+
+</productlist>
